@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <h1 class="logo">Shirshavchik</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Домашній</a></li>
+                <li><a href="#about">Про мене</a></li>
+                <li><a href="#video">Відео</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+            <button class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Давибіда Ростислав</h1>
+            <h2>Спортсмен</h2>
+            <p>Люблю боротися</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/esl8ve/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://t.me/eSlave1833" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="https://www.snapchat.com/add/r_davibida2019?share_id=XTKdszuD39g&locale=en-US"
+                    target="_blank"><i class="fab fa-snapchat"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Про мене</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>В вільний час займаюсь спортом та саморозвитком вчу різні мови. </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="video" class="video-section">
+        <h2>Відео</h2>
+        <div class="video-container">
+            <iframe width="860" height="515" src="https://youtube.com/embed/DLKzNvAnpBM" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Підтримка</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Ім'я" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Електронна пошта" required>
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" placeholder="Повідомлення" required></textarea>
+            </div>
+            <button type="submit">Відправити</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Давибіда Ростислав</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
